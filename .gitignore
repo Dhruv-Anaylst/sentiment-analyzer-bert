@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large models
+*.pt
+*.bin
+*.pth
+*.onnx
+models/*
+!models/.gitkeep
+
+# Data & Figures
+data/*
+!data/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+runs/
+logs/
